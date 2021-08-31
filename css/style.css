@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.container{
+	max-width: 1170px;
+ 	margin: auto;
+}
+.top-panel{
+	background-color: #f7f7f7;
+    color: #003671;
+    line-height: 2.1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.info-block{
+	display: inline-block;
+	margin: 7px;
+}
+.social-list{
+	display: inline-block;
+	float: right;
+	margin: 7px;
+}
+
+.showcase-panel{
+	background-image: url(../img/header.jpg);
+	background-color: #f8fafb; /* Цвет фона */
+	width: 100%;
+	height: 896px;
+	position: relative;
+	z-index: 1;
+}
+
+.site-logo{
+	background-image: url(../img/logo.png);
+	width: 208px;
+	height: 40px;
+	margin: 17px 0;
+}
+
+.section1{
+	background-image: url(../img/img1.jpg);
+	background-color: #f8fafb; /* Цвет фона */
+	width: 100%;
+	height: 712px;
+}
+.section2{
+	background-image: url(../img/img2.jpg);
+	background-color: #f8fafb; /* Цвет фона */
+	width: 100%;
+	height: 1261px;
+	position: relative;
+}
+
+.product-section{
+	width: 100%;
+	height: 750px;
+	background-color: #f8fafb;
+}
+
+.section3{
+	background-image: url(../img/img3.jpg);
+	background-color: #f8fafb; /* Цвет фона */
+	width: 100%;
+	height: 684px;
+}
+.manufacturers-section{
+	background-color: #f8fafb; /* Цвет фона */
+	width: 100%;
+	height: 258px;
+}
+.footer-area-first{
+	width: 100%;
+	height: 400px;
+	background-color: #131f2c;
+}
+.footer-area-second{
+	width: 100%;
+	height: 65px;
+	background-color: #111b26;
+}
+.showcase-panel .uk-navbar{
+	background: none;
+}
+.uk-navbar-container{
+	
+}
+.uk-navbar-nav>li.uk-active>a {
+    color: #0b89bc;
+}
+.uk-navbar-nav>li>a {
+    color: #f8fafb;
+}
+.uk-navbar-nav>li>a:hover{
+    color: #0b89bc;
+}
+.stock{
+	padding-top: 250px;
+}
+.stock h1{
+	color: #f8fafb;
+	font-size: 75px;
+}
+.stock p{
+	color: #f8fafb;
+	font-size: 35px;
+}
+.stock button{
+	font-size: 21px;
+	height: 60px;
+	border-radius: 5px;
+	background-color: #00abe4;
+}
+.section1{
+	position: relative;
+}
+.section1-text{
+	font-size: 75px;
+	padding-left: 50%;
+    padding-top: 300px;
+}
+.section1-text h1{
+	color: #003671;
+	font-size: 40px;
+}
+.section1-text p{
+	color: #00abe4;
+	font-size: 20px;
+}
+.services-title{
+	text-align: center;
+	padding-top: 85px; 
+}
+.services-title h1{
+	color: #003671;
+	font-size: 40px;
+}
+.services-title p{
+	color: #00abe4;
+	font-size: 20px;
+}
+.services-listing{
+	margin-top: 75px;
+}
+.service-title{
+	margin: 50px;
+	display: inline-block;
+	width: 24%;
+}
+.advantages{
+	position: absolute;
+	bottom: 0;
+	left:50%; 
+	margin-left:-25%;
+}
+.advantage{
+	width: 250px;
+	height: 170px;
+	padding: 10px;
+	display: inline-block;
+	padding-bottom: 100px;
+}
+.advantage h1{
+	font-size: 30px;
+	color: #00abe4
+}
+.advantage p{
+	font-size: 20px;
+	color: #003671;
+}
+.uk-card-media-top{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.product-section-title{
+	text-align: center;
+	font-size: 50px;
+	padding: 50px;
+}
+.uk-grid-small {
+	color: #f8fafb;
+}
+.map{
+	padding-top: 100px;
+	opacity: .6;
+}
